@@ -1,4 +1,4 @@
-<h1 align="center">projectsFULLSTACK</h1>
+<h1 align="center">LLM Engineering</h1>
 
 `main image`
 
@@ -95,16 +95,17 @@ Connect with me on <a href="https://www.linkedin.com/in/ayla-nelson/">LinkedIn</
 Connect with me on <a href="https://github.com/oakHalo">Oakhalo.dev</a>
 
 ## Resources:
+- **Ollama** is the easiest way to automate your work using open [models](https://ollama.com/)
+    - **Gemmma3** The current, most capable model that runs on a single [GPU](https://ollama.com/library/gemma3)
 
+<p align="center"><a href="https://ollama.com/"><img src="./images/OllamaGraphic.jpg"></img></a></p>
+    
+- **React.New** allows for testing new React projects [here](react.new)
 - `Tech used and links associated`
 - `Tech used and links associated`
 
 `<examples below>`
-- **PostMan** for API Tests [here](https://www.postman.com/)
-    - jsonwebtoken / [jwt](https://jwt.io/) for Authentification & install [here](https://www.npmjs.com/package/jsonwebtoken)
-    - jwt Debugger [here](https://jwt.io/#debugger-io)
-- **React.New** allows for testing new React projects [here](react.new)
-- [bcrypt.js](https://www.npmjs.com/package/bcryptjs) part of password hasing for user Authentification. 
+
 
 
 #### **style:** 
