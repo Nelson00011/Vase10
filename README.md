@@ -104,16 +104,12 @@ Connect with me on <a href="https://github.com/oakHalo">Oakhalo.dev</a>
 -**Astral’s** mission is to make the Python ecosystem more productive by building high-performance developer tools, starting with [Ruff](https://astral.sh/).
     - **[UV](https://docs.astral.sh/uv/)** manages project dependencies and environments, with support for lockfiles, workspaces, and more
 
-    ```
-    uv --version
-    ```
+    `uv --version`
 
 <p align="center"><a href="https://docs.astral.sh/uv/"><img src="./images/UVversion.jpg"></img></a></p>
 
-    ```
-    uv self update
-    ```
-    
+    `uv self update`
+
 <p align="center"><a href="https://docs.astral.sh/uv/getting-started/installation/"><img src="./images/UVconfirmation.jpg"></img></a></p>
 
     
