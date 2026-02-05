@@ -104,6 +104,9 @@ Connect with me on <a href="https://github.com/oakHalo">Oakhalo.dev</a>
 -**Astral’s** mission is to make the Python ecosystem more productive by building high-performance developer tools, starting with [Ruff](https://astral.sh/).
     - **[UV](https://docs.astral.sh/uv/)** manages project dependencies and environments, with support for lockfiles, workspaces, and more
 
+- **[OpenAI](https://openai.com/)** AI (artificial intelligence) research company that produces **GPT** [here](https://chatgpt.com/?utm_source=google&utm_medium=paid_search&utm_campaign=GOOG_C_SEM_GBR_Core_CHT_BAU_ACQ_PER_MIX_ALL_NAMER_US_EN_091724&c_id=21714513245&c_agid=169187630082&c_crid=713941893304&c_kwid={keywordid}&c_ims=&c_pms=9031964&c_nw=g&c_dvc=c&gad_source=1&gad_campaignid=21714513245&gbraid=0AAAAA-I0E5eW2pdZt9FqG5T43-hUSa9ra&gclid=Cj0KCQiA-YvMBhDtARIsAHZuUzLZrMa-_BdjyJ08uDhvdO13d-jJcyj4Ffj-gnaJlau-FGtC7lRmGiwaAoBuEALw_wcB)
+- **[Anthropic](https://www.anthropic.com/)** AI (artificial intelligence) research company that stems from **OpenAI** produces **Claude** [here](https://claude.ai/login)
+
 `uv --version`
 
 <p align="center"><a href="https://docs.astral.sh/uv/"><img src="./images/UVversion.jpg"></img></a></p>
