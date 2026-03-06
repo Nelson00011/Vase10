@@ -1,4 +1,4 @@
-<h1 align="center">LLM Engineering</h1>
+<h1 align="center">LLM Engineering, Vector Databases, Encoders...</h1>
 
 `main image`
 
@@ -8,7 +8,6 @@ Outline for general FULLSTACK DEVELOPMENT PROJECTs
 ## Notes:
 <p align="center">Please reference the screenshot folder for more available images</p>
 
-`selected image 1`
 
 Transformer
 Context Engineering
@@ -116,6 +115,22 @@ Connect with me on <a href="https://github.com/oakHalo">Oakhalo.dev</a>
 
 
 - **[Vellum](https://www.vellum.ai/llm-leaderboard?utm_source=google&utm_medium=organic)** This LLM leaderboard displays the latest public benchmark performance for SOTA model versions released after April 2024. The data comes from model providers as well as independently run evaluations by Vellum or the open-source community. We feature results from non-saturated benchmarks, excluding outdated benchmarks (e.g. MMLU).
+
+##### Vector Databases / Encoders / Embedding Modes: 
+
+Encoders to create the Vectors:
+- [word2vec](https://www.tensorflow.org/text/tutorials/word2vec), 
+- [BERT](https://arxiv.org/abs/1810.04805), 
+- [OpenAI](https://openai.com/) has [small](https://developers.openai.com/api/docs/models/text-embedding-3-small) and [large](https://developers.openai.com/api/docs/models/text-embedding-3-large)
+- [Google](https://ai.google.dev/gemini-api/docs/embeddings) is an embedding option
+- [Hugging Face](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2) sentence transformers with `all-Mini-LM-L6-v2`
+
+that are than stored in **Vector Databases**:
+- [Chroma](https://www.trychroma.com/)... Fast, serverless, and scalable search platform supporting vector, full-text, regex, and metadata search. Built on object storage and trusted by millions of developers. Open-source Apache 2.0.
+- [Pinecode](https://www.pinecone.io/)... Performance at scale for {search}
+The purpose-built vector database delivering relevant results at any scale.
+
+
 
 
 `uv --version`
