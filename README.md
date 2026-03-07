@@ -18,69 +18,7 @@ Parameter
 API cost 
 
 ## Run Code (Environment)
-
-### Front-End Instructions `<examples below>`
-- confirm that config is appropriate:
-```
-> node -v
-> npm -v
-> git --version
-```
-
-- Initial package.json & install dependenies(localhost:3000):
-    - Must be `cd`'d into frontend/client for install
-    - MUI, `react-router-dom`, redux, formik, etc... (see resources)
-```
-> npx create-react-app <project name>
-> cd <project name>
-> npm install @mui/icons-material @mui/material @emotion/styled @emotion/react
-> npm install --save react-router-dom
-> npm install react-redux @reduxjs/toolkit
-> npm install formik yup dotenv react-responsive-carousel
-> npm install --save @stripe/react-stripe-js @stripe/stripe-js
-```
-- Test front-end once pages are generated (ctrl-c to exit):
-```
-> npm run start
-```
-
-### Back-End Helpful Instructions `<examples below>`
-- Initial package.json & install dependencies:
-    - Must be `cd`'d into backend/server for install
-```
-> npx create-strapi-app@latest <project name>
-> cd <project name>
-> npm install --save stripe
-```
-- Strapi Database generated (ctrl-c to exit):
-```
-> npm run develop
-```
-- **Avoid** *npm run start* and use the `npm run develop`. 
-- Allow server to restart with each edit (see resources): 
-    - **Content-Type Builder**: Item entry
-    - **Media Library**: upload photos
-    - **Permissions**: Settings > Roles > Public
-- When using .env variables remember to [install prior](https://www.npmjs.com/package/dotenv/v/14.0.0)
-```
-npm install dotenv --save
-```
--
-    - Create a .env file in the root directory of your project.
-    - Import and configure dotenv.
-    - Establish a .gitignore [here](https://git-scm.com/docs/gitignore)
-
-- In frontend fetch `item` from backend (*localhost:1337*):
-```
-const grouping = "items"
-const items = await fetch(
-`http://localhost:1337/api/${grouping}`
-)
-```
---------------------------
-### Deployment
-
-
+- Variable, see lower levels for further instruction
 
 ## Contact:
 <!--- You can add in your linkedin, medium, stack overflow, dev.to account, etc. here --->
@@ -113,12 +51,11 @@ Connect with me on <a href="https://github.com/oakHalo">Oakhalo.dev</a>
 - **[Mistral](https://mistral.ai/)** has [mixtral](https://mistral.ai/news/mixtral-of-experts)
 - **[Alibaba Cloud](https://www.alibabacloud.com/help/en/model-studio/what-is-qwen-llm)** has [Gwen](https://qwen.ai/home)
 
-
 - **[Vellum](https://www.vellum.ai/llm-leaderboard?utm_source=google&utm_medium=organic)** This LLM leaderboard displays the latest public benchmark performance for SOTA model versions released after April 2024. The data comes from model providers as well as independently run evaluations by Vellum or the open-source community. We feature results from non-saturated benchmarks, excluding outdated benchmarks (e.g. MMLU).
 
-##### Vector Databases / Encoders / Embedding Modes: 
+### Vector Databases / Encoders / Embedding Modes: 
 
-Encoders to create the Vectors:
+**Encoders** to create the Vectors:
 - [word2vec](https://www.tensorflow.org/text/tutorials/word2vec), 
 - [BERT](https://arxiv.org/abs/1810.04805), 
 - [OpenAI](https://openai.com/) has [small](https://developers.openai.com/api/docs/models/text-embedding-3-small) and [large](https://developers.openai.com/api/docs/models/text-embedding-3-large)
@@ -127,6 +64,7 @@ Encoders to create the Vectors:
 
 that are than stored in **Vector Databases**:
 - [Chroma](https://www.trychroma.com/)... Fast, serverless, and scalable search platform supporting vector, full-text, regex, and metadata search. Built on object storage and trusted by millions of developers. Open-source Apache 2.0.
+    - Github documentation for [Open-Source](https://github.com/chroma-core/chroma)
 - [Pinecode](https://www.pinecone.io/)... Performance at scale for {search}
 The purpose-built vector database delivering relevant results at any scale.
 
