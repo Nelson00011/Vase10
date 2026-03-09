@@ -8,6 +8,19 @@ Outline for general FULLSTACK DEVELOPMENT PROJECTs
 ## Notes:
 <p align="center">Please reference the screenshot folder for more available images</p>
 
+#### TAG Techniques
+- Chunking: experiment with chunking stragery
+- Encoder: select the best Encoder model based on a test set
+- Improve Prompts: general content, the current date, relevant context and history
+- Document pre-processing: use an LLM to make the chunks and / or test for encoding
+- Query rewriting: use an LLM to convert the user's question to a RAG query
+- Query expansion: use an LLM to turn the question into a multiple RAG queries
+- Re-ranking: use an LLM to sub-select from RAG result
+- Hierarchical: use an LLM to summarize at multiple levels
+- Graph RAG: retrieve content closely related to similar documents
+- Agentic RAG: use agents for retrieval, combining with Memory and Tools such as SQL
+
+
 
 Transformer
 Context Engineering
